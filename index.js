@@ -1,8 +1,5 @@
 #!/usr/bin/env node
 
-/**
- * Module dependencies.
- */
 'use strict';
 const program = require('commander');
 const request = require('request')

@@ -6,7 +6,6 @@
 'use strict';
 const program = require('commander');
 const request = require('request')
-console.log("Working");
 program.arguments('<target>').option('-B, --body', "Opt-In Response Body").action(function (target, cmd) {
     request(
         {
